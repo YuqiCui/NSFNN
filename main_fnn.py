@@ -9,8 +9,8 @@ from lib.optim import AdaBound
 
 parser = argparse.ArgumentParser()
 # datasets
-parser.add_argument('--dataset', default='wpbc', type=str)
-parser.add_argument('--data_dir', default='data/cls', type=str)
+parser.add_argument('--dataset', default='Biodeg', type=str)
+parser.add_argument('--data_dir', default='data/', type=str)
 # hyper-parameters for training FNN
 parser.add_argument('--ns', type=str2bool, default='n', help='whether use non singleton model')
 parser.add_argument('--nns', type=str2bool, default='n', help='whether use nrules non singleton model')
